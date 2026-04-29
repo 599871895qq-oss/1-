@@ -71,3 +71,12 @@ hot_score = 0.35 * norm(点赞率)
 ```
 
 生成文件：`dist/douyin_material_radar_mvp.zip`（本地生成，不纳入 Git）。
+
+## 运行方式
+
+支持两种启动方式：
+
+```bash
+python src/main.py
+python -m src.main
+```

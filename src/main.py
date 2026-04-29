@@ -1,6 +1,9 @@
 from __future__ import annotations
 
-from src.material_radar import MOCK_MATERIALS, rank_materials
+if __package__ in (None, ""):
+    from material_radar import MOCK_MATERIALS, rank_materials
+else:
+    from .material_radar import MOCK_MATERIALS, rank_materials
 
 
 if __name__ == "__main__":
