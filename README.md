@@ -35,3 +35,15 @@ python -m unittest discover -s tests -p 'test_*.py'
 ## 项目运行说明
 
 - 详细运行手册：`docs/PROJECT_RUNBOOK.md`
+
+
+## 一键运行分析与执行工具链
+
+```bash
+python src/cli/run_pipeline.py
+```
+
+默认会：
+- 自动生成样例原始数据：`data/raw/sample_traffic.csv`
+- 生成指标结果：`data/processed/metrics.csv`
+- 生成日报：`reports/daily_report.md`
