@@ -20,3 +20,13 @@ python -m unittest discover -s tests -p 'test_*.py'
 - CTR（点击率）= clicks / impressions
 - CR（转化率）= orders / clicks
 - ROI（投产比）= revenue / spend
+
+
+## 执行阶段硬性要求（可随时切换）
+
+项目执行采用 A/B/C 三阶段机制，并要求满足阶段硬性产物。
+
+- 阶段定义与硬性要求：`docs/20-阶段切换规则.md`
+- 当前阶段状态：`docs/STAGE_STATUS.md`
+
+切换原则：只要满足目标阶段最小输入，可立即切换；缺失产物需在 24 小时内补齐。
