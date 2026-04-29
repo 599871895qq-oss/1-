@@ -30,3 +30,8 @@ python -m unittest discover -s tests -p 'test_*.py'
 - 当前阶段状态：`docs/STAGE_STATUS.md`
 
 切换原则：只要满足目标阶段最小输入，可立即切换；缺失产物需在 24 小时内补齐。
+
+
+## 项目运行说明
+
+- 详细运行手册：`docs/PROJECT_RUNBOOK.md`
